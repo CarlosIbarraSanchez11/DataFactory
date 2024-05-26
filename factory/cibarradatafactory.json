@@ -1,0 +1,9 @@
+{
+	"name": "cibarradatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e98164d1-5bb1-422e-aed5-27b645d785d2",
+		"tenantId": "08bb5d9c-a837-4919-bff7-0a57932c6524"
+	}
+}
