@@ -1,12 +1,20 @@
 {
 	"name": "trigger1",
 	"properties": {
-		"annotations": [],
+		"annotations": [
+			"Test"
+		],
 		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
 					"referenceName": "pip_capaplata",
+					"type": "PipelineReference"
+				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "pip_execute",
 					"type": "PipelineReference"
 				}
 			}
@@ -16,7 +24,7 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 15,
-				"startTime": "2024-05-27T00:33:00",
+				"startTime": "2024-05-27T00:30:00",
 				"timeZone": "SA Pacific Standard Time"
 			}
 		}
